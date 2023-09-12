@@ -17,7 +17,8 @@ RUN npm install -g @angular/cli@14.0.6
 COPY . .
 
 # Exponemos el puerto 4200, que es el puerto por defecto de ng serve
-EXPOSE 4200
+EXPOSE 4200 49153
 
 # Ejecutamos el comando "ng serve" para iniciar la aplicación Angular
-CMD ["ng", "serve", "--host", "0.0.0.0"]
+CMD ["npm", "start"]
+#CMD ["ng", "serve", "--host", "0.0.0.0", "--poll=2000"]
