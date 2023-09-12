@@ -8,6 +8,6 @@
 */
 export const environment = {
   production: false,
-  baseUrl: 'http://localhost/turno/public/api/',
-  imageUrl: 'http://localhost/turno/public/storage/images/',
+  baseUrl: 'http://localhost/api/',
+  imageUrl: 'http://localhost/storage/images/',
 };
